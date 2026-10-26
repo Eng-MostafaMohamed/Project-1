@@ -1,4 +1,3 @@
-import postsService from "../services/postsService";
 import type { InputProps } from "../types/inputProps";
 
 

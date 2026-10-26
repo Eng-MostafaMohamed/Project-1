@@ -12,7 +12,6 @@ export default function Feed() {
     data: posts = [],
     isLoading,
     isFetching,
-    refetch,
   } = useQuery({
     queryKey: ["posts"],
     queryFn: postsService.getAllPosts,

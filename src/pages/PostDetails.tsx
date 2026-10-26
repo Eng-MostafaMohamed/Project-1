@@ -23,7 +23,7 @@ export default function PostDetails() {
         getPostComments();
         setIsLoading(false);
       })
-      .catch((err) => {
+      .catch(() => {
         setIsLoading(false);
         setNotFound(true);
       });

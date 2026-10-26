@@ -1,6 +1,5 @@
 import axios from "axios";
-import type { CreateCommentResponse, DeleteCommentResponse, GetPostCommentsResponse, Response, UpdateCommentResponse } from "../types/response";
-import type { CommentI } from "../interfaces/commentI";
+import type { CreateCommentResponse, DeleteCommentResponse, GetPostCommentsResponse, UpdateCommentResponse } from "../types/response";
 
 class CommentsServices {
 
